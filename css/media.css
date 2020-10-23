@@ -1,0 +1,159 @@
+
+@media (max-width: 1200px) {
+    .header {
+        background-position: -500px 0; 
+    }
+    /* .header .hr-line {
+        width: 333px;
+        right: 148px;
+    } */
+}
+
+/* ____________________________________________________________ 992px _______ */
+@media (max-width: 992px) {
+        .header {
+        background-position: -560px 0;
+    }
+    .header .work_hour {
+        margin-right: 45px;
+    }
+    .header .phone {
+        margin-right: 45px;
+    }
+    .header button {
+        width: 170px;
+        height: 40px;
+        position: relative;
+        right: 40px;
+    }
+    .header .social {
+        width: 160px;
+        position: relative;
+        right: 45px;
+    }
+    .header .social img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* ____________________________________________________________ 768px _______ */
+@media (max-width: 768px) {
+    .header {
+        background-position: -700px 0; 
+    }
+    .header .header_logo {
+        width: 55px;
+        margin-left: -15px;
+    }
+    .header .work_hour {
+        font-size: 17px;
+        margin-right: 45px;
+    }
+    .header .phone {
+        font-size: 27px;
+    }
+    .header button {
+        font-size: 17px;
+        width: 160px;
+        height: 35px;
+        right: 50px;
+    }
+    .header .social {
+        width: 150px;
+        bottom: 40px;
+    }
+    .header .social img {
+        width: 26px;
+        height: 26px;
+    }
+    .header .list_lang {
+        position: relative;
+        top: 7px;
+        right: 162px;
+    }
+    .header ul {
+        margin-top: 0px;
+        width: 480px;
+        margin: 0 auto;
+    }
+    .header span ul {
+        margin-top: 0px;
+    }
+    .header span ul li {
+        padding-bottom: 15px;
+    }
+    .header ul li {
+        
+        margin-right: 10px;
+    }
+}
+
+/* ____________________________________________________________ 576px _______ */
+@media (max-width: 576px) {
+    .header {
+        background-position: -700px 0; 
+    }
+    .header .header_logo {
+        width: 40px;
+        margin-left: -15px;
+    }
+    .header .work_hour {
+        font-size: 12px;
+        margin-right: 45px;
+    }
+    .header .phone {
+        font-size: 24px;
+    }
+    .header button {
+        font-size: 17px;
+        width: 143px;
+        height: 30px;
+        right: 50px;
+    }
+    .header .social {
+        width: 118px;
+        bottom: 40px;
+        margin-left: 85px;
+    }
+    .header .social img {
+        width: 20px;
+        height: 20px;
+    }
+    .header .list_lang {
+        position: relative;
+        top: 7px;
+        right: 19px;
+    }
+    .header ul {
+        margin-top: 0px;
+        width: 480px;
+        margin: 0 auto;
+    }
+    .header span ul {
+        margin-top: 0px;
+    }
+    .header span ul li {
+        padding-bottom: 15px;
+    }
+    .header ul li {
+        margin-right: 10px;
+    }
+    .header h1 {
+        font-size: 28px;
+        position: relative;
+        top: 15px;
+        right: 37px;
+    }
+    .header .form_header {
+        margin: 0 auto;
+    }
+    .header form input {
+        height: 30px;
+    }
+    .header form .btn-form-header {
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

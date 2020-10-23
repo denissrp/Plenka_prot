@@ -1,0 +1,1076 @@
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    color: #000;
+}
+
+.header {
+    height: 657px;
+    background: url(../bg/header_bg.png) no-repeat;
+}
+
+.header_logo {
+    margin-top: 27px;
+}
+
+.header .work_hour {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.header .phone {
+    font-size: 29px;
+    color: #ffffff;
+    margin-top: -22px;
+    text-align: right;
+}
+
+.header button {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 47px;
+    width: 239px;
+    height: 49px;
+    background-color: #2bad2b;
+    border: none;
+    border-radius: 50px 50px;
+    outline-style: none;
+}
+
+.header .social {
+    width: 180px;
+    margin-top: 60px;
+}
+
+.list_lang select {
+    width: 120px;
+    background: transparent;
+    padding: 0 3px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.list_lang option {
+    background: #000;
+}
+
+.list_lang {
+    margin-top: 58px;
+    margin-left: 11px;
+    border: 1px solid #979797;
+    overflow: hidden;
+    background: url(../icons/arrow.png) no-repeat;
+    background-position: 100px center;
+    width: 120px;
+    height: 32px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: -42px;
+}
+
+.header span ul {
+    margin-top: -13px;
+    border-bottom: solid 1px #4c4c4d;
+}
+
+.header span ul li {
+    padding-bottom: 26px;
+}
+
+.header ul li {
+    margin-right: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    width: 575px;
+    padding-bottom: 17px;
+    border-bottom: solid 7px #2bad2b;
+}
+
+.header .hr-line {
+    width: 329px;
+    height: 7px;
+    background-color: #2bad2b;
+    position: relative;
+    right: 149px;
+}
+
+.header p {
+    font-size: 19px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+.header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 0px;
+    line-height: 29px;
+    margin-left: 18px;
+}
+
+.header h2 span {
+    font-size: 19px;
+}
+
+.header form input {
+    width: 356px;
+    height: 37px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-top: 9px;
+}
+
+.header form .btn-form-header {
+    width: 290px;
+    height: 37px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #2bad2b;
+    border: none;
+    border-radius: 50px 50px;
+    position: relative;
+    bottom: 42px;
+    left: 377px;
+}
+
+/* Наши услуги */
+
+.services h2 {
+    font-size: 39px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 45px;
+    width: 220px;
+    padding-bottom: 14px;
+    border-bottom: solid 7px #2bad2b;
+}
+
+.services .line-h2 {
+    width: 175px;
+    height: 7px;
+}
+
+.services img {
+    position: relative;
+    top: 20px;
+}
+
+.services h3 {
+    width: 127px;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 33px;
+    border-bottom: solid 1px #2bad2b;
+    padding-bottom: 5px;
+}
+
+.services p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.services button {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 212px;
+    height: 44px;
+    background-color: #2bad2b;
+    border: none;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-bottom: 77px;
+}
+
+/* Преимущества работы с нами */
+
+.benefits h2 {
+    width: 500px;
+    font-size: 39px;
+    font-weight: 400;
+    border-bottom: solid 7px #2bad2b;
+}
+
+.benefits img {
+    margin-top: 60px;
+    position: relative;
+}
+
+.benefits h3 {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.benefits p {
+    width: 140px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.row-benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits button {
+    display: block;
+    width: 212px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #2bad2b;
+    border-radius: 50px;
+    margin: 23px auto;
+}
+
+/* Пакеты услуг */
+
+.package_of_services h2 {
+    width: 230px;
+    font-size: 39px;
+    font-weight: 400;
+    border-bottom: solid 7px #2bad2b;
+    padding-bottom: 13px;
+}
+
+/* Первый пакет услуг */
+
+.services_1 {
+    width: 333px;
+    height: 947px;
+    margin-top: 149px;
+    position: relative;
+    left: 39px;
+}
+
+.services_1 .services_1-top {
+    width: 333px;
+    height: 456px;
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+}
+
+.services_1 .services_1-top h3 {
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #a82bad;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.services_1 .services_1-top h3 span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize
+}
+
+.services_1 .services_1-top img {
+    display: block;
+    margin: 19px auto;
+}
+
+.services_1 h4 {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.services_1 p {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services_1 .services_1-top-logo {
+    width: 333px;
+    height: 74px;
+    background-color: #a82bad;
+    position: absolute;
+    bottom: 0;
+}
+
+.services_1 .services_1-top-logo p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    margin: 21px 0 0 24px;
+    background: url(../icons/package_of_services-img-2_logo.png) no-repeat;
+    background-position: 148px 0;
+}
+
+.services_1 .services_1-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    height: 286px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+}
+
+.services_1 .services_1-footer {
+    width: 333px;
+    height: 205px;
+    position: relative;
+    background: url(../icons/arrow-right.png) no-repeat;
+    background-position: 0px 11px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+}
+
+.services_1 .footer-left {
+    width: 105px;
+    height: 105px;
+}
+
+.services_1 .services_1-footer p {
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 31px;
+}
+
+.services_1 .services_1-footer p span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_1 .footer-right {
+    width: 130px;
+    height: 105px;
+    position: absolute;
+    top: 0px;
+    right: 34px;
+}
+
+.services_1 .footer-right p {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_1 .footer-right p span {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_1 .services_1-footer button {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 293px;
+    height: 44px;
+    background-color: #a82bad;
+    border: none;
+    border-radius: 50px;
+    margin: 33px auto;
+}
+
+/* Второй пакет услуг */
+.services_2 {
+    width: 333px;
+    height: 1187px;
+    background-color: #2bad2b;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+    position: relative;
+}
+
+.services_2 .services_2-top {
+    width: 333px;
+    height: 457px;
+}
+.services_2 .services_2-top h3 {
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 23px;
+}
+.services_2 .title_left, .title_right {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.services_2 .title_left {
+    line-height: 19px;
+    position: absolute;
+    top: 88px;
+    left: 26px;
+    text-align: center;
+}
+.services_2 .title_right {
+    position: absolute;
+    top: 86px;
+    right: 26px;
+}
+
+.services_2 .img_left {
+    position: absolute;
+    top: 139px;
+    left: 50px;
+}
+.services_2 .img_right {
+    position: absolute;
+    top: 139px;
+    right: 50px;
+}
+
+.services_2 p {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 141px;
+}
+
+.services_2 .list-text_left, .list-text_right {
+    width: 110px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 152px;text-align: center;
+}
+.services_2 .list-text_left {
+    float: left;
+    margin-left: 21px;
+}
+.services_2 .list-text_right {
+    float: right;
+    margin-right: 21px;
+}
+
+.services_2 .services_2-top-logo {
+    display: flex;
+    align-items: center;
+    width: 333px;
+    height: 99px;
+    background: #fff;
+    border: 2px solid #2bad2b;
+    box-shadow: 2px 4px 5px -2px rgba(3,3,3,0.37);
+    position: relative;
+    /* z-index: 10; */
+}
+
+.services_2 .services_2-top-logo p {
+    width: 120px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    position: absolute;
+    top: 33px;
+    left: 21px;
+}
+.services_2 .services_2-top-logo img {
+    position: absolute;
+    right: 21px;
+}
+
+.services_2 .car_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    height: 263px;
+    background: #fff;
+    margin-top: 48px;
+    border: 2px solid #2bad2b;
+    box-shadow: 2px 4px 5px -2px rgba(3,3,3,0.37);
+}
+
+.services_2 .footer {
+    width: 333px;
+    height: 144px;
+    border: 2px solid #2bad2b;
+    background: #fff;
+    box-shadow: 2px 4px 5px -2px rgba(3,3,3,0.37);
+    margin-top: 48px;
+    position: relative;
+    z-index: 2;
+}
+
+.services_2 .footer-bg {
+    width: 333px;
+    height: 144px;
+    background: url(../icons/arrow-right.png) no-repeat;
+    background-position: 0px 11px;
+}
+
+.services_2 .footer-left {
+    width: 105px;
+    height: 105px;
+}
+.services_2 .footer-left p {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    position: relative;
+    top: 28px;
+    left: 31px;
+}
+.services_2 .footer-left p span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_2 .footer-right {
+    width: 130px;
+    height: 105px;
+    position: absolute;
+    top: 0px;
+    right: 34px;
+}
+.services_2 .footer-right p {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    top: 16px;
+}
+.services_2 .footer-right p span {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_2 button {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    width: 293px;
+    height: 44px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin: 90px auto;
+}
+
+
+
+.services_3 {
+    width: 333px;
+    height: 947px;
+    margin-top: 149px;
+    background-color: #f8f8f8;
+    position: relative;
+    left: -56px;
+}
+.services_3 .services_3-top {
+    width: 333px;
+    height: 456px;
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+}
+
+.services_3 .services_3-top h3 {
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 700;
+    color:  #2b74ad;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.services_3 .services_3-top h3 span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize
+}
+
+.services_3 .services_3-top img {
+    display: block;
+    margin: 19px auto;
+}
+
+.services_3 .services_3-top h4 {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.services_3 .services_3-top  p {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services_3 .services_3-top-logo {
+    width: 333px;
+    height: 74px;
+    background-color: #2b74ad;
+    position: absolute;
+    bottom: 0;
+}
+
+.services_3 .services_3-top-logo p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    margin: 21px 0 0 24px;
+    background: url(../icons/package_of_services-img-2_logo.png) no-repeat;
+    background-position: 148px 0;
+}
+
+.services_3 .services_3-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    height: 286px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3, 3, 3, 0.37);
+}
+
+.services_3 .services_3-footer {
+    width: 333px;
+    height: 205px;
+    position: relative;
+    background: url(../icons/arrow-right.png) no-repeat;
+    background-position: 0px 11px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 2px 4px 5px -1px rgba(3,3,3,0.37);
+
+}
+
+.services_3 .footer-left {
+    width: 140px;
+    height: 105px;
+}
+
+.services_3 .services_3-footer p {
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 31px;
+    line-height: 16px;
+}
+
+.services_3 .services_3-footer p span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services_3 .footer-right {
+    width: 130px;
+    height: 105px;
+    position: absolute;
+    top: 0px;
+    right: 34px;
+}
+
+.services_3 .footer-right p {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+
+.services_3 .footer-right p span {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    right: 20px;
+}
+
+.services_3 .services_3-footer button {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 293px;
+    height: 44px;
+    background-color: #2b74ad;
+    border: none;
+    border-radius: 50px;
+    margin: 33px auto;
+}
+
+
+/* Сравнение защитных покрытий */
+.comparison {
+    height: 951px;
+    background: url(../bg/comparison_bg.png) no-repeat;
+}
+.comparison h2 {
+    width: 530px;
+    font-size: 39px;
+    font-weight: 400;
+    margin-top: 39px;
+    border-bottom: solid 7px  #2bad2b;
+    padding-bottom: 17px;
+}
+
+.comparison .fon_comparison-title {
+    /* width: 1022px; */
+    height: 540px;
+    background: #fff;
+    position: relative;
+    bottom: 39px;
+    left: 16px;
+}
+
+.comparison .fon_comparison {
+    width: 1026px;
+    height: 500px;
+    background: #fff;
+}
+
+.comparison .fon_comparison-title-1 {
+    max-width: 1026px;
+    height: 76px;
+    background: url(../img/fon_comparison-title-1.png);
+}
+.comparison .fon_comparison-title-1 p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -43px;
+}
+
+.comparison .fon_comparison-title-2 {
+    height: 76px;
+    background: url(../img/fon_comparison-title-2.png) no-repeat;
+    background-position: 382px 43px;
+}
+.comparison .fon_comparison-title-2 p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -45px;
+}
+
+.comparison .fon_comparison-title-3 {
+    height: 76px;
+    background: url(../img/fon_comparison-title-3.png) no-repeat;
+}
+.comparison .fon_comparison-title-3 p {
+    height: 76px;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -40px;
+}
+
+.comparison .fon_comparison-title-4 {
+    height: 76px;
+    background: url(../img/fon_comparison-title-4.png) no-repeat;
+    background-position: 190px 43px;
+}
+.comparison .fon_comparison-title-4 p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -40px;
+}
+
+.comparison .fon_comparison-title-5 {
+    height: 76px;
+    background: url(../img/fon_comparison-title-5.png) no-repeat;
+}
+.comparison .fon_comparison-title-5 p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -42px;
+}
+
+.comparison .fon_comparison-title-6 {
+    height: 76px;
+    background: url(../img/fon_comparison-title-6.png) no-repeat;
+    background-position: 150px 43px;
+}
+.comparison .fon_comparison-title-6 p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: -40px;
+}
+
+.comparison .fon_comparison-title-6_hr {
+    height: 42px;
+    background: url(../img/fon_comparison-title-6_hr.png) no-repeat;
+}
+
+/* Что вы получаете */
+
+.you {
+    height: 588px;
+}
+
+.you h2 {
+    width: 295px;
+    font-size: 39px;
+    font-weight: 400;
+    border-bottom: solid 7px #2bad2b;
+    padding-bottom: 17px;
+    margin-top: 49px;
+}
+.you img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.you p {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.you button {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+
+    width: 212px;
+    height: 44px;
+    background-color: #2bad2b;
+    border: none;
+    border-radius: 50px;
+    margin: 25px auto;
+}
+
+
+/* Как мы работаем */
+.working {
+    height: 974px;
+    background: url(../bg/working_bg.png);
+}
+.working h2 {
+    width: 285px;
+    font-size: 39px;
+    font-weight: 400;
+    color: #ffffff;
+    border-bottom: solid 7px #2bad2b;
+    margin-top: 57px;
+    padding-bottom: 18px;
+}
+
+.working .working_schema {
+    height: 486px;
+    background: url(../bg/working_schema.png) no-repeat;
+    margin-top: 40px;
+}
+
+.working .working_schema h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    top: 160px;
+}
+.working .working_schema p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    top: 160px;
+}
+
+.working .working_schema .line_2 h3 {
+    margin-top: 239px
+}
+
+.working button {
+    display: block;
+    width: 321px;
+    height: 44px;
+    background-color: #2bad2b;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    margin: 178px auto;
+    position: relative;
+    right: 85px;
+}
+
+/* Наши гарантии */
+
+.warranty {
+    height: 562px;
+}
+.warranty h2 {
+    width: 257px;
+    font-size: 39px;
+    font-weight: 400;
+    margin-top: 40px;
+    border-bottom: solid 7px #2bad2b;
+    padding-bottom: 19px;
+}
+.warranty p {
+    width: 280px;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.warranty img {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+.warranty button {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+
+    width: 212px;
+    height: 44px;
+    background-color: #2bad2b;
+    border: none;
+    border-radius: 50px;
+    margin: 57px auto;
+}
+
+/* Наша команда */
+.command {
+    height: 634px;
+}
+
+.command h2 {
+    width: 240px;
+    font-size: 39px;
+    font-weight: 400;
+    margin-top: 46px;
+    border-bottom: solid 7px #2bad2b;
+    padding-bottom: 11px;
+}
+
+.command img {
+    margin-top: 52px;
+}
+
+.command h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 24px;
+}
+
+.command hr {
+    width: 178px;
+    border: solid 1px#2bad2b;
+}
+
+.command p {
+    width: 178px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.command p span {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+.command .info {
+    line-height: 1.2;
+    font-weight: 400;
+}
